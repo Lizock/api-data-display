@@ -31,7 +31,7 @@ export default function App() {
   if (error) return <p style={{ color: "red" }}>Error: {error}</p>
 
   return (
-    <div>
+    <div className = "pikaPika">
       <Header />
 
       <Pikachu data={data} />

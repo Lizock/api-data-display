@@ -2,26 +2,65 @@ html{
 
     background-color: rgb(250, 255, 203);
 
-
 }
 
 header{
 
     display: flex;
     justify-content: center;
+    padding:10px;
+    margin:10px;
+    gap: 20px;
+
+    font-size: larger;
+    color:goldenrod;
+
+}
+
+header img{
+
+    width:100px;
 
 }
 
 
 .Games ul{
 
-
     display: flex;
     flex-direction: row;
+
     gap:40px;
     margin:10px;
 
+    flex-wrap: wrap;
 
-
+    max-width: 220px;
 
 }
+
+.Games{
+
+    display: flex;
+   justify-content: center;
+
+}
+
+.PikaStats{
+
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    margin:10px;
+    gap: 20px;
+
+    width:570px;
+
+    color:rgb(159, 0, 0);
+
+    border: 3px solid black;
+    border-radius: 50px;
+
+    background-color: white;
+
+}
+
