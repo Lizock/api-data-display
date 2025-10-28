@@ -4,3 +4,24 @@ html{
 
 
 }
+
+header{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.Games ul{
+
+
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    margin:10px;
+
+
+
+
+}

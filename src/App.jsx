@@ -34,13 +34,11 @@ export default function App() {
     <div>
       <Header />
 
-      <h2>Fetched Data:</h2>
-      <h3>{data.name}</h3>
       <Pikachu data={data} />
       <Games games={data.game_indices} />
       <h4>Moves:</h4>
       <Moves moves={data.moves} />
-      
+
        <Footer />
     </div>
   )
