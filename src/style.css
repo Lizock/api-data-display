@@ -34,26 +34,43 @@ header img{
 
     flex-wrap: wrap;
 
-    max-width: 220px;
+    width: 340px;
+
+    list-style-type: none;
 
 }
 
 .Games{
 
     display: flex;
-   justify-content: center;
+    justify-content: center;
+    justify-self: center;
+
+    padding:10px;
+
+   border: 3px solid black;
+   border-radius: 50px;
 
 }
+
+.gamesTitle{
+
+    display: flex;
+    justify-content: center;
+
+}
+
 
 .PikaStats{
 
     display: flex;
     justify-content: center;
+    justify-self: center;
     padding:10px;
     margin:10px;
     gap: 20px;
 
-    width:570px;
+    width:500px;
 
     color:rgb(159, 0, 0);
 
