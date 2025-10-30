@@ -4,7 +4,7 @@ export default function Footer(){
 
         <>
 
-        <p> Pikachu... </p>
+        <p> Created by Liza and Emily 2025©️ </p>
 
         </>
 

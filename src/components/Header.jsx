@@ -1,4 +1,5 @@
-import pika from "../assets/pikachu.png"
+import PokeLogo from "../assets/PokemonLogo.png";
+
 
 export default function Header(){
 
@@ -6,9 +7,7 @@ export default function Header(){
 
         <header>
 
-        <img src = {pika} />
-        <h1>  Pikachu!  </h1>
-        <img src = {pika} />
+        <img src ={PokeLogo} alt= "The logo for Pokemon"/>
 
         </header>
 
